@@ -33,7 +33,7 @@
 .navbar-text p {
   margin: 0;
   text-align: end;
-  color: antiquewhite;
+  color:dimgray;
 }
 
 .navbar-text {

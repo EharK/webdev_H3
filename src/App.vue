@@ -20,6 +20,15 @@ export default {
 
 <style lang="scss">
 
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #1f1f1f;
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -39,6 +48,6 @@ export default {
       color: #42b983;
     }
   }
-  background-color: #242424;
+  background-color: #141414;
 }
 </style>
