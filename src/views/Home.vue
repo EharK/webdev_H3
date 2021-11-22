@@ -3,6 +3,9 @@
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>POSTS</h1>
     <posts></posts>
+    <button v-on:click="resetLikes">RESET</button>
+
+
   </div>
 </template>
 
@@ -17,6 +20,12 @@ export default {
     return {
     };
   },
-};
+  methods:{
+    resetLikes: function() {
+      this.$store.dispatch("resetLikesAct")
+      }
+    }
+  }
+;
 </script>
 
