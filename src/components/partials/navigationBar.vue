@@ -6,6 +6,7 @@
       <span class="nav-container">
         <router-link to="/">Home</router-link>
         <router-link to="/about">About</router-link>
+        <router-link to="/contactus">Contact us</router-link>
       </span>
       <span class="navbar-text">
         <p>user name</p>
@@ -27,7 +28,7 @@
   place-content: space-between;
   align-items: center;
   padding: 0;
-  width: 6%;
+  width: 15%;
 }
 
 .navbar-text p {

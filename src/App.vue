@@ -23,7 +23,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 body {
   background-color: #1f1f1f;
   margin: 0;
@@ -53,6 +52,15 @@ body {
 
 #footer-container {
   background-color: #141414;
+
+  a {
+    font-weight: bold;
+    color: #517394;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 
 p {
