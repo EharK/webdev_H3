@@ -17,6 +17,9 @@
 
 <style scoped>
 #nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

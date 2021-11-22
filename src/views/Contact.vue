@@ -7,5 +7,7 @@
 </template>
 
 <style scoped>
-
+.tere {
+   padding-bottom: 10%;
+}
 </style>

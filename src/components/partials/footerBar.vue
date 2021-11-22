@@ -17,7 +17,6 @@
     -moz-box-sizing: border-box;   
     box-sizing: border-box;        
     width: 100%;
-    position: absolute;
     bottom: 0;
     padding: 20px 40px 80px 40px;
     text-align: start;

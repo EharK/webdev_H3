@@ -23,15 +23,24 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  height: 100%;
+}
+
 body {
   background-color: #1f1f1f;
   margin: 0;
+  height: 100%;
 }
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
   text-align: center;
   color: #2c3e50;
 }
