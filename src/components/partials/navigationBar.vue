@@ -19,7 +19,7 @@
 #nav {
   display: flex;
   flex-direction: row;
-  place-content: space-between;
+  justify-content: space-between;
 }
 
 .nav-container {

@@ -22,9 +22,7 @@
   align-items: center;
   background-color: rgb(119, 167, 255);
   padding: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+  margin: 100px auto 100px auto;
   width: 400px;
   border-radius: 20px;
   z-index: 50;
