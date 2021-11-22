@@ -1,6 +1,6 @@
 <template>
   <div class="middle-container">
-    <h1>Welcome to homework 3!</h1>
+    <h1>Welcome to WebDev_HW3</h1>
     <router-link to="/login">Create an Account</router-link><br />
     <span>Or</span>
     <h2>Please Log In!</h2>
@@ -20,12 +20,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(119, 167, 255);
+  background-color: rgb(61, 84, 128);
   padding: 50px;
   margin: 100px auto 100px auto;
   width: 400px;
   border-radius: 20px;
   z-index: 50;
+  color:aliceblue;
+}
+
+a {
+    color: aliceblue;
 }
 
 #background {

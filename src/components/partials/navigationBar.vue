@@ -5,8 +5,7 @@
       </span>
       <span class="nav-container">
         <router-link to="/">Home</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/contactus">Contact us</router-link>
+        <router-link to="/contactus">Contact</router-link>
       </span>
       <span class="navbar-text">
         <p>user name</p>
@@ -25,10 +24,10 @@
 
 .nav-container {
   display: flex;
-  place-content: space-between;
+  place-content: space-around;
   align-items: center;
   padding: 0;
-  width: 15%;
+  width: 10%;
 }
 
 .navbar-text p {
